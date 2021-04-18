@@ -128,12 +128,12 @@ view model =
       [ text "The current URL is: "
       , b [] [ text (Url.toString model.url) ]
       , ul []
-          [ viewLink "/home"
-          , viewLink "/profile"
-          , viewLink "/reviews/the-century-of-the-self"
-          , viewLink "/reviews/public-opinion"
-          , viewLink "/reviews/shah-of-shahs"
-          , viewLink "/add/11/10"
+          [ viewLink "/elmNav/home"
+          , viewLink "/elmNav/profile"
+          , viewLink "/elmNav/reviews/the-century-of-the-self"
+          , viewLink "/elmNav/reviews/public-opinion"
+          , viewLink "/elmNav/reviews/shah-of-shahs"
+          , viewLink "/elmNav/add/11/10"
           ]
       , text model.extra
       ]
